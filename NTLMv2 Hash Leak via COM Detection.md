@@ -68,6 +68,14 @@ In essence, the query is trying to find devices that have had a successful local
 
 ---
 
+## MITRE ATT&CK Mapping
+
+- **Technique:** Forced Authentication (T1187)
+
+- **Tactic:** Credential Access (TA0006)
+
+---
+
 ## Useful links
 
 - [NTLMv2 Hash Leak via COM Auto-Execution — Andrea Bocchetti](https://medium.com/@andreabocchetti88/ntlmv2-hash-leak-via-com-auto-execution-543919e577cb)
