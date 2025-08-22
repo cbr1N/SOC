@@ -21,7 +21,7 @@ SentinelHealth
     FailureReason = tostring(parse_json(ExtendedProperties).FailureReason),
     ResultDescription = tostring(parse_json(ExtendedProperties).ResultDescription),
     OperationName = tostring(OperationName)
-| project
+| project-reorder
     TimeGenerated,
     AutomationRuleName,
     TriggeringIncidentTitle,
